@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-sm-2 col-md-2">
+    <app-adminsidebar></app-adminsidebar>
+  </div>
+  <div class="col-sm-10 col-md-10">
+    <ngb-tabset [justify]="currentJustify">
+
+      <ngb-tab>
+        <ng-template ngbTabTitle>
+          <span class="fa fa-users">VIEW PROPERTIES</span></ng-template>
+        <ng-template ngbTabContent>
+          <app-admin-view-user></app-admin-view-user>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle><span class="fa fa-home">ADD PROPERTY</span></ng-template>
+        <ng-template ngbTabContent>
+          <!-- <app-admin-add-property></app-admin-add-property> -->
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+  </div>
+</div>

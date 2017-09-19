@@ -1,0 +1,7 @@
+.companyName {
+  position: relative;
+  left: 30%;
+  transform: translateX(-50%);
+  font-size: 55px;
+  text-decoration: none;
+}

@@ -1,0 +1,6 @@
+button,
+input {
+  overflow: auto;
+  color: #666666;
+  padding-left: 10px;
+}

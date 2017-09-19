@@ -1,0 +1,28 @@
+a {
+  text-decoration: none !important;
+  color: #666666;
+  font-size: large;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Alegreya', serif;
+}
+
+p {
+  text-decoration: none !important;
+  color: black;
+  font-size: xx-large;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Alegreya', serif;
+}
+
+.list-group-item {
+  background-color: #FDC600;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  /* background-color: #fff; */
+  border: none;
+}
